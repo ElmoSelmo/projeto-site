@@ -1,0 +1,101 @@
+/* Estilos gerais para todas as páginas */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: aquamarine;
+}
+
+p { text-align:justify; 
+
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.navbar table { 
+display:flex
+
+}
+
+.navbar {
+  background-color: blue;
+  padding: 10px;
+}
+
+
+
+.navbar-brand {
+  color: green;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.navbar-nav .nav-link {
+  color: blue;
+  text-decoration:aqua;
+  padding: 10px 20px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color:yellowgreen;
+}
+
+/* Estilos específicos para cada página */
+.column-container {
+  display:grid;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.column {
+  max-width: 100%;
+  height: auto;
+}
+
+#home {
+  color: aquamarine;
+  font-size: 18px;
+}
+
+/* Estilos para a página Destino */
+#destinos {
+  color: #008000;
+  font-size: 18px;
+}
+.image-container {
+  display: flex;
+}
+
+.image-box {
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+}
+
+.image-box img {
+  max-width: 100%;
+  height: auto;}
+
+/* Estilos para a página Contato */
+.contato {
+  color: rgb(0, 145, 255);
+  font-size: 18px;
+}
+
+/* Estilos para a página Quem Somos */
+#quemsomos {
+  color: yellowgreen;
+  font-size: 18px;
+}
+
+/* Estilos para a página Cadastro */
+#cadastro { 
+  color: #001a80;
+  font-size: 18px;
+
+}
+
+
+
